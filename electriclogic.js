@@ -10,7 +10,7 @@ let powerSwitch = true;
 //These variables should never change.
 const on = true;
 const off = !on;
-let c = (outlet && electricity && outlet && powerSwitch);
+let c = (outlet && electricity  && powerSwitch);
 
 
 

@@ -15,16 +15,16 @@ let positiveX = (x > 0);
 let negativeX = (x < 0);
 
 //using all 3 variables
-let allPositive = (x || y || z > 0) ;
-let allNegative = (x-x*2 +y + z ) ;
-
+let allPositive = (x > 0) && (y > 0)&& (z > 0) ;
+let allNegative = (x < 0) && (y < 0)  && (z < 0) ;
+ 
 //using all 3 variables
-let atLeastOnePositive = (x+y+z);
-let atLeastOneNegative = (x+y+z - (x+y+z)*2);
+let atLeastOnePositive = (x> 0)&&  (y> 0)&& (z> 0);
+let atLeastOneNeative = (x < 0)  && (y< 0) && (z< 0) ;
 
 
 /*
-*
+* 
 *  This section of code below here shows the product of your work.
 *
 */
