@@ -28,7 +28,7 @@ let ready = c && c && c && c && c;
 
 // 2. You forget to pay your elecrtic bill.  This means you have no electrity, set the variable unPaid equal to electrity AND false;
 
-let unPaid = false; 
+let unPaid = electricity && false ; 
 
 // 3. Old people just don't understand electronics.  Fill in the variable oldPeople to be equal to powerSwitch AND the opposite of powerSwitch
 
@@ -36,11 +36,11 @@ let oldPeople = powerSwitch && c;
 
 // 4. You are unsure if your device is plugged in or turned on.  Set the variable unsure to the OPPOSITE of POWERSWITCH AND the group - aka parentheses - of the OPPOSITE of PLUG OR the OPPOSITE of OUTLET.
 
-let unsure = false ;
+let unsure = !plug || !outlet (!powerSwitch) ;
 
 // 5. Something is broken.  You are not sure if it is your power cord or the wall.  Set the variable broken equal to the OUTLET OR the PLUG OR the POWERSWITCH
 
-let broken = true;
+let broken = outlet || plug || powerSwitch ;
 
 
 
